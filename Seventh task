@@ -1,0 +1,11 @@
+var names = ["Aidana", "Bekbolat", "Mariya", "Aleksandr", "Diana"];
+payForFood(names);
+function randomNames(names)
+{
+    return Math.floor(Math.random()*(names-0)+0);
+}
+function payForFood(names)
+{
+    var randomius = randomNames(names.length);
+    return (names[randomius]+ " is going to buy lunch today.");
+}
