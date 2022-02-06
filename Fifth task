@@ -1,0 +1,22 @@
+function BIM1(BIM)
+{
+    if(BIM < 18.5)
+    {
+        return ("Your BMI is "+BIM+",so you are underweight");
+    } 
+    else if( BIM >= 18.5 && BIM <= 24.9)
+    {
+        return("Your BMI is "+BIM+",so you have a normal weight");
+    } 
+    else if ( BIM > 24.9)
+    {
+        return ("Your BMI is "+BIM+",so you are overweight");
+    }
+}
+function bmiCalculator (weight, height) {
+    height1=height/100;
+     return ( Math.round((weight/(height1*height1))));
+
+}
+var BIM=bmiCalculator(85,185);
+BIM1(BIM);
