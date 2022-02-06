@@ -7,4 +7,7 @@ else if (a==0)
 {
     alert("Leap year");
 }
-else alert("Not Leap year");
+else
+{ 
+    alert("Not Leap year");
+}
