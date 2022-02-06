@@ -1,0 +1,5 @@
+var myAge = prompt("What is your age?");
+var days = (90-myAge)*365;
+var weeks = (90-myAge)*52;
+var months = (90-myAge)*12;
+console.log("You have "+ days + " days, " + weeks + " weeks, " + "and " + months + " months left." )
