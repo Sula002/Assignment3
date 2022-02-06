@@ -1,0 +1,10 @@
+var a=prompt("Year please!");
+if(a%400==0 || (a%100!=0 && a%4==0))
+{
+    alert("Leap year");
+}
+else if (a==0)
+{
+    alert("Leap year");
+}
+else alert("Not Leap year");
