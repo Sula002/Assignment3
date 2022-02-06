@@ -1,0 +1,40 @@
+function turnRight(){ 
+turnLeft();
+turnLeft();
+turnLeft(); 
+} 
+function movetwice(){ 
+move(); 
+move(); 
+} 
+function moveRight(){ 
+putBeeper(); 
+movetwice(); 
+putBeeper(); 
+movetwice(); 
+putBeeper(); 
+turnLeft(); 
+move(); 
+turnLeft(); 
+} 
+function moveLeft(){ 
+move(); 
+putBeeper(); 
+movetwice(); 
+putBeeper(); 
+move(); 
+turnRight(); 
+move(); 
+turnRight(); 
+} 
+function main(){ 
+moveRight(); 
+moveLeft(); 
+moveRight(); 
+moveLeft(); 
+putBeeper(); 
+movetwice(); 
+putBeeper(); 
+movetwice(); 
+putBeeper(); 
+}
