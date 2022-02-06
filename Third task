@@ -1,0 +1,41 @@
+function main(){
+   turnLeft();
+   repeat(4){
+      move();
+   }
+   RM();
+   LM();
+   Last();
+   RmLm();
+   LM();
+   move();
+   RmLm();
+   LM();
+   move();
+   LM();
+   Last();
+   LM();
+}
+function RM()
+{
+   turnRight();
+   move();
+}
+function LM()
+{
+   turnLeft();
+   move();
+}
+function RmLm()
+{
+    repeat(2){
+   RM();
+   LM();
+   }
+}
+function Last()
+{
+   RM();
+   move();
+   RM();
+}
